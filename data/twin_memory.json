@@ -1,0 +1,312 @@
+{
+  "BGW-01": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": true,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [
+      {
+        "cycle": 4,
+        "day": 18,
+        "predicted_oil": 48.03,
+        "observed_oil": 20.0,
+        "error_pct": -58.36,
+        "sources": [
+          "Thermal bias / steam efficiency mismatch"
+        ]
+      },
+      {
+        "cycle": 4,
+        "day": 18,
+        "predicted_oil": 47.58,
+        "observed_oil": 120.0,
+        "error_pct": 152.21,
+        "sources": [
+          "Thermal bias / steam efficiency mismatch"
+        ]
+      }
+    ],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 105.28,
+    "mae_temp": 0.0,
+    "event_log": [
+      {
+        "ts": "2026-09-27T20:35:11.617223+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "rod_float",
+        "severity": "WARNING",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      },
+      {
+        "ts": "2026-09-27T20:35:11.619720+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "cleared",
+        "severity": "INFO",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      },
+      {
+        "ts": "2026-09-27T20:37:11.597180+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "cleared",
+        "severity": "INFO",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      },
+      {
+        "ts": "2026-09-27T20:37:11.599806+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "cleared",
+        "severity": "INFO",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      },
+      {
+        "ts": "2026-09-27T20:40:16.260281+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "rod_float",
+        "severity": "WARNING",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      },
+      {
+        "ts": "2026-09-27T20:40:16.262667+00:00",
+        "day": null,
+        "well": "BGW-01",
+        "acknowledged": false,
+        "subsystem": "fault",
+        "condition": "cleared",
+        "severity": "INFO",
+        "evidence": "operator_injected_fault",
+        "cause": "demo_fault_injection",
+        "impact": "physics_state_recomputed",
+        "recommended_action": "Review diagnosis"
+      }
+    ],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.6300000000000001,
+    "ml_weight": 0.37000000000000005
+  },
+  "BGW-04": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": false,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 0.0,
+    "mae_temp": 0.0,
+    "event_log": [],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.55,
+    "ml_weight": 0.45
+  },
+  "BGW-07": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": true,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 0.0,
+    "mae_temp": 0.0,
+    "event_log": [],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.55,
+    "ml_weight": 0.45
+  },
+  "BGW-09": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": false,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 0.0,
+    "mae_temp": 0.0,
+    "event_log": [],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.55,
+    "ml_weight": 0.45
+  },
+  "BGW-12": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": false,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 0.0,
+    "mae_temp": 0.0,
+    "event_log": [],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.55,
+    "ml_weight": 0.45
+  },
+  "BGW-15": {
+    "fault": null,
+    "sim_day": null,
+    "css_cycle": null,
+    "autonomous": false,
+    "applied_params": null,
+    "baseline_params": {
+      "steam_volume": 520.0,
+      "injection_pressure": 8.2,
+      "injection_duration": 72.0,
+      "soak_time": 48.0,
+      "stroke_length": 2.5,
+      "spm": 6.0,
+      "vfd_setting": 70.0
+    },
+    "cycle_cutoff_day": null,
+    "thermal_bias": 0.0,
+    "history": [],
+    "interventions": [],
+    "operating_log": [],
+    "mae_oil": 0.0,
+    "mae_temp": 0.0,
+    "event_log": [],
+    "pending_dispatch": null,
+    "objective_weights": {
+      "oil": 0.35,
+      "npv": 0.25,
+      "risk": 0.2,
+      "energy": 0.1,
+      "sor": 0.1
+    },
+    "acknowledged": [],
+    "physics_weight": 0.55,
+    "ml_weight": 0.45
+  }
+}

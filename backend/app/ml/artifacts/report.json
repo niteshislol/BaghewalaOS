@@ -1,0 +1,19 @@
+{
+  "css_surrogate": {
+    "n_samples": 20,
+    "r2": {
+      "oil_bbl": 0.2162,
+      "sor_bbl_per_bbl": -0.3156,
+      "days": -0.0178,
+      "float_hours": -2.5076,
+      "kwh_per_bbl": 0.3453,
+      "net_inr": 0.2428
+    }
+  },
+  "failure_risk": {
+    "n_samples": 100,
+    "accuracy": 0.7,
+    "positive_rate": 0.77
+  },
+  "trained_at": "2026-09-27 17:05:45"
+}

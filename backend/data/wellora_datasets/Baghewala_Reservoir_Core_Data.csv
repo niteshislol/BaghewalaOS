@@ -1,0 +1,20 @@
+Parameter,Value,Unit,Description
+Field Name,Baghewala Field,,Heavy Oil Field in Rajasthan India
+Formation Name,Jodhpur Sandstone,,Primary Producing Reservoir Matrix
+Crude API Gravity,17.5,°API,Heavy Crude Oil Characterization
+Asphaltene Content,14.5,%,High asphaltene precipitation risk
+Initial Reservoir Temp,47,°C,Low primary reservoir thermal energy
+Initial Reservoir Pressure,35,bar,Depleted low reservoir pressure
+Initial Crude Viscosity,3200,cP,Ultra-high viscosity at 47°C
+Reservoir Depth,1100,m,Depth to top of Jodhpur Sandstone
+Porosity,22,%,Average effective matrix porosity
+Permeability,450,mD,Average air permeability
+Primary CSS Cycle Count,3,,Current active CSS steam cycle
+Baseline Steam Volume,2500,m³ CWE,Cold Water Equivalent steam injection
+Baseline Soak Period,5,Days,Equilibration soak duration
+Baseline Production Cutoff,4.5,m³/day,Oil cut-off rate threshold for next CSS cycle
+SRP Pump Depth,1050,m,Downhole pump setting depth
+Sucker Rod Diameter,0.875,inches,7/8" Grade D steel rod string
+Plunger Diameter,2.0,inches,Downhole pump plunger size
+Standard Stroke Length,100,inches,Polished rod stroke length
+Baseline SPM,6.0,strokes/min,Unintegrated fixed pumping speed
